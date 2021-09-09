@@ -10,7 +10,7 @@ fichier.close()
 
 
 utilisateur = os.getlogin()
-chemin = r'/Users/kevinnelson/Downloads/Python/Youtube/'.format(utilisateur)
+chemin = r'path here'.format(utilisateur)
 
 def replication(fichier):
     os.chdir(fichier)
